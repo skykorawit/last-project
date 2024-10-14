@@ -1,20 +1,42 @@
 /* styles.css */
 .menu-enter {
-    opacity: 0;
-    transform: scaleY(0);
-  }
-  .menu-enter-active {
-    opacity: 1;
-    transform: scaleY(1);
-    transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
-  }
-  .menu-exit {
-    opacity: 1;
-    transform: scaleY(1);
-  }
-  .menu-exit-active {
-    opacity: 0;
-    transform: scaleY(0);
-    transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
-  }
-  
+  opacity: 0;
+  transform: scaleY(0);
+}
+.menu-enter-active {
+  opacity: 1;
+  transform: scaleY(1);
+  transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+}
+.menu-exit {
+  opacity: 1;
+  transform: scaleY(1);
+}
+.menu-exit-active {
+  opacity: 0;
+  transform: scaleY(0);
+  transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+}
+
+/* Styles for the sections */
+section {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 0; /* Space around the content */
+}
+
+/* styles.css */
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+/* styles.css */
+
+.circular-gradient {
+  background: radial-gradient(circle, #65c468 0%, #d9f1da 80%);
+}

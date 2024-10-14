@@ -1,0 +1,24 @@
+/* Custom styles for Menu Page */
+button {
+    font-weight: bold;
+  }
+  
+  .grid {
+    gap: 1.5rem; /* Increased gap for better spacing */
+  }
+  
+  .footer {
+    border-top: 2px solid white; /* Optional border for footer separation */
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  /* ปรับปรุงสไตล์อื่น ๆ ที่คุณต้องการ */
+  
+  
